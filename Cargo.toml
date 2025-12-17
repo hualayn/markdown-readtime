@@ -3,8 +3,8 @@ name = "markdown-readtime"
 version = "0.1.0"
 edition = "2024"
 description = "A library to estimate reading time for Markdown content"
-repository = "https://github.com/yourusername/markdown-readtime"
-license = "MIT OR Apache-2.0"
+repository = "https://github.com/hualayn/markdown-readtime"
+license = "MIT"
 keywords = ["markdown", "reading-time", "readtime"]
 categories = ["text-processing", "web-programming"]
 
