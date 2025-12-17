@@ -66,7 +66,7 @@ mod utils;
 use pulldown_cmark::{Event, Parser, Tag, TagEnd};
 use utils::*;
 
-
+/// 阅读时间估算结果
 #[derive(Debug, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct ReadTime {
@@ -396,7 +396,6 @@ pub fn words(markdown: &str) -> usize {
 pub fn formatted(markdown: &str) -> String {
     estimate(markdown).formatted
 }
-
 
 #[cfg(test)]
 mod tests {
