@@ -77,3 +77,28 @@ pub fn format_time(seconds: u64) -> String {
         format!("{}分{}秒", minutes, remaining_seconds)
     }
 }
+
+#[cfg(test)]
+mod tests { 
+    use super::*;
+
+    
+    #[test]
+    fn test_count_words() {
+        let text = "你好，世界！";
+        let word_count = count_words(text, true);
+        assert_eq!(word_count, 6);
+    }
+
+    #[test]
+    fn test_count_english_words() {
+        let text = "Hello world! This is a test.";
+        let word_count = count_english_words(text, true);
+        assert_eq!(word_count, 6);
+    }
+
+    #[test]
+    fn test_format_time() {
+        assert_eq!(format_time(45), "45秒");
+    }
+}

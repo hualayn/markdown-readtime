@@ -454,20 +454,6 @@ This is a test paragraph. It contains some words.
     }
 
     #[test]
-    fn test_count_words() {
-        let text = "你好，世界！";
-        let word_count = count_words(text, true);
-        assert_eq!(word_count, 6);
-    }
-
-    #[test]
-    fn test_count_english_words() {
-        let text = "Hello world! This is a test.";
-        let word_count = count_english_words(text, true);
-        assert_eq!(word_count, 6);
-    }
-
-    #[test]
     fn test_formatted() {
         let md_txt = r#"
 # 测试标题
