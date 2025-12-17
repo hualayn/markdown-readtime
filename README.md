@@ -4,7 +4,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/markdown-readtime)](https://crates.io/crates/markdown-readtime)
 [![Documentation](https://docs.rs/markdown-readtime/badge.svg)](https://docs.rs/markdown-readtime)
-[![License](https://img.shields.io/crates/l/markdown-readtime)](https://github.com/yourusername/markdown-readtime/blob/main/LICENSE)
+[![License](https://img.shields.io/crates/l/markdown-readtime)](https://github.com/hualayn/markdown-readtime/blob/main/LICENSE)
 
 ## 功能特性
 
@@ -18,7 +18,7 @@
 
 ## 安装
 
-在 [Cargo.toml](file://g:\my_git\rust-mp-articles\markdown-readtime\Cargo.toml) 中添加以下依赖：
+在 [Cargo.toml] 中添加以下依赖：
 
 ```toml
 [dependencies]
