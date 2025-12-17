@@ -79,10 +79,9 @@ pub fn format_time(seconds: u64) -> String {
 }
 
 #[cfg(test)]
-mod tests { 
+mod tests {
     use super::*;
 
-    
     #[test]
     fn test_count_words() {
         let text = "你好，世界！";
