@@ -4,7 +4,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/markdown-readtime)](https://crates.io/crates/markdown-readtime)
 [![Documentation](https://docs.rs/markdown-readtime/badge.svg)](https://docs.rs/markdown-readtime)
-[![License](https://img.shields.io/crates/l/markdown-readtime)](https://github.com/hualayn/markdown-readtime/blob/main/README.md)
+[![License](https://img.shields.io/github/hualayn/markdown-readtime)](https://github.com/hualayn/markdown-readtime/blob/main/README.md)
 
 ## 功能特性
 
