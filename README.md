@@ -50,8 +50,7 @@ let markdown_content = r#"
 fn main() {
     println!("Hello, world!");
 }
-```
-"#;
+```"#;
 
 // 获取完整的阅读时间信息
 let read_time = estimate(markdown_content);
