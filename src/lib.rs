@@ -150,8 +150,8 @@ pub struct ReadSpeed {
 impl Default for ReadSpeed {
     fn default() -> Self {
         Self {
-            words_per_minute: 200.0,
-            seconds_per_image: 12.0,
+            words_per_minute: 300.0,
+            seconds_per_image: 30.0,
             seconds_per_code_block: 20.0,
             count_emoji: true,
             chinese: true,
