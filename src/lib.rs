@@ -284,18 +284,18 @@ pub fn estimate_with_speed(markdown: &str, speed: &ReadSpeed) -> ReadTime {
             Event::Text(text) => {
                 if !in_image_alt && !in_code_block {
                     if speed.chinese {
-                        word_count += count_words(&text.to_string(), speed.count_emoji);
+                        word_count += count_words(&text, speed.count_emoji);
                     } else {
-                        word_count += count_english_words(&text.to_string(), speed.count_emoji);
+                        word_count += count_english_words(&text, speed.count_emoji);
                     }
                 }
             }
             Event::Code(code) => {
                 if !in_code_block {
                     if speed.chinese {
-                        word_count += count_words(&code.to_string(), speed.count_emoji);
+                        word_count += count_words(&code, speed.count_emoji);
                     } else {
-                        word_count += count_english_words(&code.to_string(), speed.count_emoji);
+                        word_count += count_english_words(&code, speed.count_emoji);
                     }
                 }
             }
